@@ -1,0 +1,46 @@
+body{
+margin: 0px;
+}
+
+.absolute-pos{
+    position: absolute;
+    background-color: aquamarine;
+}
+.fixed-pos{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(223, 109, 28);
+    color: white;
+    padding: 1rem;
+    font-weight: bold;
+    display: flex ;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.sticky-pos > li {
+    margin-left: 1rem;
+    
+}
+
+.goo-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+.goo-wrapper .side-nav {
+    width: 250px;
+    height: 100vh;
+}
+
+.goo-wrapper .side-nav .menu {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.goo-wrapper .side-nav .menu .li {
+    color: #00c8c8;
+}
