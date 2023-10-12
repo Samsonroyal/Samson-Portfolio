@@ -25,6 +25,10 @@ margin: 0px;
     margin-left: 1rem;
     
 }
+.logo{
+    width: 60px;
+
+}
 
 .goo-wrapper{
     display: flex;
@@ -41,6 +45,29 @@ margin: 0px;
     padding-left: 10px;
 }
 
-.goo-wrapper .side-nav .menu .li {
-    color: #00c8c8;
+.goo-wrapper .side-nav .menu li {
+    color: #00C8C8;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 26px;
+    cursor: pointer;
+    margin-bottom: 5px;
+
+}
+
+.goo-wrapper .side-nav .menu li:hover{
+    background-color: #2CD6DC;
+    color: #fff;
+    
+}
+.goo-wrapper .side-nav .menu .menu-icon {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.goo-wrapper .side-nav .menu .menu-active{
+    background-color: #21999D;
+    color: #fff; 
+    
 }
