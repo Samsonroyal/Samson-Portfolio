@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="43" height="43" viewBox="0 0 43 43">
+  <g id="Group_1033" data-name="Group 1033" transform="translate(-150 -203)">
+    <g id="Ellipse_166" data-name="Ellipse 166" transform="translate(150 203)" fill="none" stroke="#098e93" stroke-width="1">
+      <circle cx="21.5" cy="21.5" r="21.5" stroke="none"/>
+      <circle cx="21.5" cy="21.5" r="21" fill="none"/>
+    </g>
+    <path id="Icon_material-remove-from-queue" data-name="Icon material-remove-from-queue" d="M23.153,4.5H3.665A2.158,2.158,0,0,0,1.5,6.665V19.657a2.165,2.165,0,0,0,2.165,2.165H9.078v2.165h8.661V21.822h5.413a2.162,2.162,0,0,0,2.154-2.165l.011-12.992A2.165,2.165,0,0,0,23.153,4.5Zm0,15.157H3.665V6.665H23.153Zm-5.413-7.578v2.165H9.078V12.078Z" transform="translate(158.38 210.857)" fill="#098e93"/>
+  </g>
+</svg>

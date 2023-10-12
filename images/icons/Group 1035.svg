@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="43" height="43" viewBox="0 0 43 43">
+  <g id="Group_1035" data-name="Group 1035" transform="translate(-150 -353)">
+    <g id="Ellipse_166" data-name="Ellipse 166" transform="translate(150 353)" fill="none" stroke="#098e93" stroke-width="1">
+      <circle cx="21.5" cy="21.5" r="21.5" stroke="none"/>
+      <circle cx="21.5" cy="21.5" r="21" fill="none"/>
+    </g>
+    <path id="Icon_metro-chart-bars" data-name="Icon metro-chart-bars" d="M2.571,23.765H28.725v3.269H2.571ZM5.84,17.226H9.109v4.9H5.84Zm4.9-6.538h3.269V22.13H10.744Zm4.9,4.9h3.269V22.13H15.648Zm4.9-9.808h3.269V22.13H20.552Z" transform="translate(156.201 358.197)" fill="#098e93"/>
+  </g>
+</svg>
