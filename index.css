@@ -68,7 +68,7 @@ body {
 }
 /* Navbar Styles */
 #header {
-    background: rgba(255, 255, 255, 0.2);
+    background: #7188ee;
     backdrop-filter: blur(10px);
     display: flex;
     justify-content: center;
