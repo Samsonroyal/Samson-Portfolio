@@ -34,7 +34,7 @@
   
     border: 1px solid rgba(255, 255, 255, .25);
     border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.45);
+    background-color: rgb(126 126 126 / 45%);
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
   
     backdrop-filter: blur(15px);
@@ -54,7 +54,7 @@
   
     border: 1px solid rgba(255, 255, 255, .25);
     border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.45);
+    background-color: rgb(126 126 126 / 45%);
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
   
     backdrop-filter: blur(15px);
