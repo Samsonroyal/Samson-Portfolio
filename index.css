@@ -13,28 +13,6 @@ body {
   overflow: hidden;
 }
 
-/* Width of the scrollbar */
-::-webkit-scrollbar {
-  width: 12px;
-}
-
-/* Track (the area on which the thumb runs) */
-::-webkit-scrollbar-track {
-  background: #999999;
-}
-
-/* Thumb (the draggable part of the scrollbar) */
-::-webkit-scrollbar-thumb {
-  background: #888;
-}
-
-/* On hover, the thumb color */
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
-}
-
-
-
 
 .content {
   position: relative;
@@ -62,125 +40,50 @@ body {
   padding: 0;
 }
 
-.sun {
-  height: 200px;
-  width: 300px;
-  background: rgb(13, 246, 35); /* Change the background color to green */
-  background: radial-gradient(circle, rgba(13, 246, 35, 1) 0%, rgba(255, 255, 255, 0) 70%);
-  background-size: 50%;
-  background-repeat: no-repeat;
-  background-position: center;
-  -webkit-animation: Gradient 6s ease-in-out infinite;
-  -moz-animation: Gradient 6s ease-in-out infinite;
-  animation: Gradient 6s ease-in-out infinite;
-  position: absolute;
+
+
+#header {
+  background: #7188ee;
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  position: sticky;
 }
 
-@-webkit-keyframes Gradient {
-  0% {
-    background-size: 50%;
-  }
-  50% {
-    background-size: 100%;
-  }
-  100% {
-    background-size: 50%;
-  }
-}
-
-@-moz-keyframes Gradient {
-  0% {
-    background-size: 50%;
-  }
-  50% {
-    background-size: 100%;
-  }
-  100% {
-    background-size: 50%;
-  }
-}
-
-@keyframes Gradient {
-  0% {
-    background-size: 50%;
-  }
-  50% {
-    background-size: 100%;
-  }
-  100% {
-    background-size: 50%;
-  }
-}
-
-#footer {
-  background-color: #246c;
-  background-image: linear-gradient(to bottom, transparent, #0009);
-  border-top: 1px solid #fff3;
-  box-shadow: inset 0 1px 0 #fff3, 0 0 32px #000;
-  overflow: hidden;
-  padding: 8px;
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 9001;
-}
-#footer a {
-  color: #85c6f6;
-  padding: 1em 0;
-  text-decoration: none;
-}
-#footer ul {
+.links {
   display: flex;
   list-style: none;
-  justify-content: center;
-  font-size: 2em;
-  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  --nav-item-padding: 10px;
 }
-#footer ul li {
-  padding: 0 .5em;
+
+.nav-item {
+  margin: 0 var(--nav-item-padding);
+  padding: 0;
 }
-/* Navbar Styles */
-#header {
-    background: #7188ee;
-    backdrop-filter: blur(10px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 60px;
-  }
-  
-  .links {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    --nav-item-padding: 10px;
-  }
-  
-  .nav-item {
-    margin: 0 var(--nav-item-padding);
-    padding: 0;
-  }
-  
-  .nav-link {
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.8);
-    font-weight: bold;
-    transition: color 0.3s;
-    font-size: 18px
-  }
-  
-  .nav-link:hover {
-    color: rgba(255, 255, 255, 1);
-  }
-  
-  .line {
-    width: 1px;
-    height: 30px;
-    background: rgba(255, 255, 255, 0.3);
-    margin: 0 20px;
-  }  
+
+.nav-link {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: bold;
+  transition: color 0.3s;
+  font-size: 18px;
+}
+
+.nav-link:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.line {
+  width: 1px;
+  height: 30px;
+  background: rgba(255, 255, 255, 0.3);
+  margin: 0 20px;
+}
+
 
 .button-29 {
   align-items: center;
@@ -328,25 +231,3 @@ body {
   animation: curbl 1200ms linear infinite;
 }
 
-@keyframes curbl {
-  
-  0% {
-    background: #ffffff;
-  }
-
-  49% {
-    background: #ffffff;
-  }
-
-  60% {
-    background: transparent;
-  }
-
-  99% {
-    background: transparent;
-  }
-
-  100% {
-    background: #ffffff;
-  }
-} 
