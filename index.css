@@ -13,6 +13,27 @@ body {
   overflow: hidden;
 }
 
+/* Width of the scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track (the area on which the thumb runs) */
+::-webkit-scrollbar-track {
+  background: #999999;
+}
+
+/* Thumb (the draggable part of the scrollbar) */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* On hover, the thumb color */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
 
 
 .content {
