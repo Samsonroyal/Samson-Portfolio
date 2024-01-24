@@ -1,0 +1,39 @@
+
+  
+.skills-container
+{
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    display: grid;
+  }
+  .skills-container .single-gradient
+  {
+    font-weight: 500;
+  }
+.skills-container
+{
+  grid-column-gap: 26px;
+  grid-row-gap: 25px;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  display: grid;
+}
+*
+{
+  box-sizing: border-box;
+}
+.single-gradient
+{
+  font-weight: 500;
+}
+body
+{
+  color: #333;
+  font-family: Inter,sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
